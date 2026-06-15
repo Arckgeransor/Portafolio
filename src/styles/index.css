@@ -7,7 +7,7 @@
 body {
     background-color: black;
     color: rgb(26, 255, 0);
-    font-size: 30px;
+    font-size: 20px;
 }
 
 h1, h2, article {
@@ -45,6 +45,9 @@ a {
     margin-bottom: 30px;
     border-top: 2px solid white;
     border-bottom: 2px solid white;
+    position: sticky;
+    top: 10px;
+    background-color: black;
 }
 
 .nav-bar ul, .experience {
